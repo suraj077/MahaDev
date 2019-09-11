@@ -1,0 +1,67 @@
+body {
+	background-image: url("space.jpg");
+	background-position: center;
+	background-image: linear-gradient(red, grey);
+	
+}
+
+
+
+h1 {
+	text-align: center;
+	letter-spacing: -7;
+	color: white;
+	text-shadow: 1.5px 1px yellow;
+	border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(space.jpg) 30 stretch;
+    background-color: lightgreen;
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+
+p {
+	text-transform: capitalize;
+	color: white;
+	text-shadow: 0 0 3px #FF0000;
+}
+
+p1 {
+	color: white;
+	text-shadow: 0 0 3px #FF0000;
+}
+
+
+
+div {
+	height: 150px;
+	padding: 50px;
+	text-align: center;
+	color: green;
+	margin: 20px;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	font-size: 50px;
+	font-family: monospace;
+	word-spacing: -10px;
+	letter-spacing: -5px;
+	box-sizing: border-box;
+	outline-color: red;
+  font-size:40px;
+  border:solid;
+  border-style:solid;
+  border-width:1px;
+  border-color: blue yellow red green;
+  border-radius:20px 50px;
+  background-color:lightgreen;
+  text-shadow: 2px 1.5px white;
+   text-shadow: 2px 2px 5px red;
+    box-shadow: 10px 10px grey;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+video {
+	padding: 5px;
+	text-shadow: 1px 4px white;
+}
